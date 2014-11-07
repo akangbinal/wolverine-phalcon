@@ -1,0 +1,78 @@
+<?php use Phalcon\Tag; ?>
+
+<?php echo $this->getContent(); ?>
+
+<table width="100%">
+    <tr>
+        <td align="left">
+            <?php echo $this->tag->linkTo(array("addresses/index", "Go Back")); ?>
+        </td>
+        <td align="right">
+            <?php echo $this->tag->linkTo(array("addresses/new", "Create ")); ?>
+        </td>
+    </tr>
+</table>
+
+<table class="browse" align="center">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Customer</th>
+            <th>Type</th>
+            <th>Address</th>
+            <th>Additional Of Info</th>
+            <th>Zipcode</th>
+            <th>Rural</th>
+            <th>District</th>
+            <th>City</th>
+            <th>Province</th>
+            <th>Country</th>
+            <th>Phone</th>
+            <th>Mobile</th>
+            <th>Shipping</th>
+            <th>Billing</th>
+            <th>Created Of Date</th>
+            <th>Last Of Updated Of Date</th>
+         </tr>
+    </thead>
+    <tbody>
+    <?php foreach ($page->items as $addresse) { ?>
+        <tr>
+            <td><?php echo $addresse->id ?></td>
+            <td><?php echo $addresse->customer_id ?></td>
+            <td><?php echo $addresse->type ?></td>
+            <td><?php echo $addresse->address ?></td>
+            <td><?php echo $addresse->additional_info ?></td>
+            <td><?php echo $addresse->zipcode ?></td>
+            <td><?php echo $addresse->rural ?></td>
+            <td><?php echo $addresse->district ?></td>
+            <td><?php echo $addresse->city ?></td>
+            <td><?php echo $addresse->province ?></td>
+            <td><?php echo $addresse->country ?></td>
+            <td><?php echo $addresse->phone ?></td>
+            <td><?php echo $addresse->mobile ?></td>
+            <td><?php echo $addresse->shipping ?></td>
+            <td><?php echo $addresse->billing ?></td>
+            <td><?php echo $addresse->created_date ?></td>
+            <td><?php echo $addresse->last_updated_date ?></td>
+            <td><?php echo $this->tag->linkTo(array("addresses/edit/" . $addresse->id, "Edit")); ?></td>
+            <td><?php echo $this->tag->linkTo(array("addresses/delete/" . $addresse->id, "Delete")); ?></td>
+        </tr>
+    <?php } ?>
+    </tbody>
+    <tbody>
+        <tr>
+            <td colspan="2" align="right">
+                <table align="center">
+                    <tr>
+                        <td><?php echo $this->tag->linkTo("addresses/search", "First") ?></td>
+                        <td><?php echo $this->tag->linkTo("addresses/search?page=" . $page->before, "Previous") ?></td>
+                        <td><?php echo $this->tag->linkTo("addresses/search?page=" . $page->next, "Next") ?></td>
+                        <td><?php echo $this->tag->linkTo("addresses/search?page=" . $page->last, "Last") ?></td>
+                        <td><?php echo $page->current, "/", $page->total_pages ?></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </tbody>
+</table>

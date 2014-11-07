@@ -1,0 +1,508 @@
+[Thu, 06 Nov 14 19:21:46 +0700][DEBUG] This is a message
+[Thu, 06 Nov 14 19:21:56 +0700][DEBUG] This is a message
+[Thu, 06 Nov 14 19:21:58 +0700][DEBUG] This is a message
+[Thu, 06 Nov 14 19:22:07 +0700][DEBUG] ArrayThis is a message
+[Thu, 06 Nov 14 19:22:21 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:25:41 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:26:02 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:26:02 +0700][DEBUG] 401
+[Thu, 06 Nov 14 19:26:19 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:26:19 +0700][DEBUG] xxx->401
+[Thu, 06 Nov 14 19:27:04 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:27:04 +0700][DEBUG] xxx->401
+[Thu, 06 Nov 14 19:27:17 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:27:21 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:27:51 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:28:28 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:28:29 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:28:30 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:29:23 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:29:35 +0700][DEBUG] 1This is a message
+[Thu, 06 Nov 14 19:30:29 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 11:13:40 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 11:13:40 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 13:49:35 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 13:49:35 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:38:49 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:38:49 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:38:50 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:38:50 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:38:51 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:38:51 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:38:53 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:38:53 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:38:54 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:38:54 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:38:55 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:38:55 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:38:56 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:38:56 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:38:57 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:38:57 +0700][DEBUG] xxx->401
+[Fri, 07 Nov 14 14:39:05 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 14:45:51 +0700][DEBUG] 1This is a message
+[Fri, 07 Nov 14 15:34:04 +0700][DEBUG] 1
+[Fri, 07 Nov 14 15:35:47 +0700][DEBUG] 
+[Fri, 07 Nov 14 15:35:51 +0700][DEBUG] 
+[Fri, 07 Nov 14 15:36:16 +0700][DEBUG] 
+[Fri, 07 Nov 14 15:36:37 +0700][DEBUG] 
+[Fri, 07 Nov 14 15:36:41 +0700][DEBUG] 
+[Fri, 07 Nov 14 15:39:59 +0700][DEBUG] Array
+[Fri, 07 Nov 14 15:40:09 +0700][DEBUG] 1
+[Fri, 07 Nov 14 15:40:17 +0700][DEBUG] Array
+(
+    [columns] => id AS groupId, code AS groupCode
+    [conditions] => code= ?1 AND type= ?2
+    [bind] => Array
+        (
+            [1] => silver
+            [2] => Silver Reseller
+        )
+
+    [order] => code asc
+)
+
+[Fri, 07 Nov 14 15:41:18 +0700][DEBUG] Array
+(
+    [columns] => id AS groupId, code AS groupCode
+    [conditions] => code= ?1 AND type= ?2
+    [bind] => Array
+        (
+            [1] => silver
+            [2] => Silver Reseller
+        )
+
+    [order] => code asc
+)
+
+[Fri, 07 Nov 14 15:41:18 +0700][DEBUG] Phalcon\Mvc\Model\Resultset\Simple Object
+(
+    [_type:protected] => 0
+    [_result:protected] => Phalcon\Db\Result\Pdo Object
+        (
+            [_connection:protected] => Phalcon\Db\Adapter\Pdo\Mysql Object
+                (
+                    [_eventsManager:protected] => 
+                    [_descriptor:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => pr_bilna_api
+                        )
+
+                    [_dialect:protected] => Phalcon\Db\Dialect\Mysql Object
+                        (
+                            [_escapeChar:protected] => `
+                        )
+
+                    [_connectionId:protected] => 1
+                    [_sqlStatement:protected] => 
+                    [_sqlVariables:protected] => 
+                    [_sqlBindTypes:protected] => 
+                    [_transactionsWithSavepoints:protected] => 0
+                    [_pdo:protected] => PDO Object
+                        (
+                        )
+
+                    [_affectedRows:protected] => 
+                    [_transactionLevel:protected] => 0
+                    [_type:protected] => mysql
+                    [_dialectType:protected] => mysql
+                )
+
+            [_result:protected] => 
+            [_fetchMode:protected] => 2
+            [_pdoStatement:protected] => PDOStatement Object
+                (
+                    [queryString] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+                )
+
+            [_sqlStatement:protected] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+            [_bindParams:protected] => Array
+                (
+                    [:1] => silver
+                    [:2] => Silver Reseller
+                )
+
+            [_bindTypes:protected] => 
+            [_rowCount:protected] => 1
+        )
+
+    [_cache:protected] => 
+    [_isFresh:protected] => 1
+    [_pointer:protected] => -1
+    [_count:protected] => 1
+    [_activeRow:protected] => 
+    [_rows:protected] => 
+    [_errorMessages:protected] => 
+    [_hydrateMode:protected] => 0
+    [_model:protected] => Phalcon\Mvc\Model\Row Object
+        (
+        )
+
+    [_columnMap:protected] => Array
+        (
+            [groupId] => groupId
+            [groupCode] => groupCode
+        )
+
+    [_keepSnapshots:protected] => 
+)
+
+[Fri, 07 Nov 14 15:42:44 +0700][DEBUG] Array
+(
+    [columns] => id AS groupId, code AS groupCode
+    [conditions] => code= ?1 AND type= ?2
+    [bind] => Array
+        (
+            [1] => silver
+            [2] => Silver Reseller
+        )
+
+    [order] => code asc
+)
+
+[Fri, 07 Nov 14 15:42:45 +0700][DEBUG] Phalcon\Mvc\Model\Resultset\Simple Object
+(
+    [_type:protected] => 0
+    [_result:protected] => Phalcon\Db\Result\Pdo Object
+        (
+            [_connection:protected] => Phalcon\Db\Adapter\Pdo\Mysql Object
+                (
+                    [_eventsManager:protected] => 
+                    [_descriptor:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => pr_bilna_api
+                        )
+
+                    [_dialect:protected] => Phalcon\Db\Dialect\Mysql Object
+                        (
+                            [_escapeChar:protected] => `
+                        )
+
+                    [_connectionId:protected] => 1
+                    [_sqlStatement:protected] => 
+                    [_sqlVariables:protected] => 
+                    [_sqlBindTypes:protected] => 
+                    [_transactionsWithSavepoints:protected] => 0
+                    [_pdo:protected] => PDO Object
+                        (
+                        )
+
+                    [_affectedRows:protected] => 
+                    [_transactionLevel:protected] => 0
+                    [_type:protected] => mysql
+                    [_dialectType:protected] => mysql
+                )
+
+            [_result:protected] => 
+            [_fetchMode:protected] => 2
+            [_pdoStatement:protected] => PDOStatement Object
+                (
+                    [queryString] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+                )
+
+            [_sqlStatement:protected] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+            [_bindParams:protected] => Array
+                (
+                    [:1] => silver
+                    [:2] => Silver Reseller
+                )
+
+            [_bindTypes:protected] => 
+            [_rowCount:protected] => 1
+        )
+
+    [_cache:protected] => 
+    [_isFresh:protected] => 1
+    [_pointer:protected] => -1
+    [_count:protected] => 1
+    [_activeRow:protected] => 
+    [_rows:protected] => 
+    [_errorMessages:protected] => 
+    [_hydrateMode:protected] => 0
+    [_model:protected] => Phalcon\Mvc\Model\Row Object
+        (
+        )
+
+    [_columnMap:protected] => Array
+        (
+            [groupId] => groupId
+            [groupCode] => groupCode
+        )
+
+    [_keepSnapshots:protected] => 
+)
+
+[Fri, 07 Nov 14 15:42:45 +0700][DEBUG] count : 1
+[Fri, 07 Nov 14 15:43:13 +0700][DEBUG] Array
+(
+    [columns] => id AS groupId, code AS groupCode
+    [conditions] => code= ?1 AND type= ?2
+    [bind] => Array
+        (
+            [1] => silver
+            [2] => Silver Reseller
+        )
+
+    [order] => code asc
+)
+
+[Fri, 07 Nov 14 15:43:13 +0700][DEBUG] Phalcon\Mvc\Model\Resultset\Simple Object
+(
+    [_type:protected] => 0
+    [_result:protected] => Phalcon\Db\Result\Pdo Object
+        (
+            [_connection:protected] => Phalcon\Db\Adapter\Pdo\Mysql Object
+                (
+                    [_eventsManager:protected] => 
+                    [_descriptor:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => pr_bilna_api
+                        )
+
+                    [_dialect:protected] => Phalcon\Db\Dialect\Mysql Object
+                        (
+                            [_escapeChar:protected] => `
+                        )
+
+                    [_connectionId:protected] => 1
+                    [_sqlStatement:protected] => 
+                    [_sqlVariables:protected] => 
+                    [_sqlBindTypes:protected] => 
+                    [_transactionsWithSavepoints:protected] => 0
+                    [_pdo:protected] => PDO Object
+                        (
+                        )
+
+                    [_affectedRows:protected] => 
+                    [_transactionLevel:protected] => 0
+                    [_type:protected] => mysql
+                    [_dialectType:protected] => mysql
+                )
+
+            [_result:protected] => 
+            [_fetchMode:protected] => 2
+            [_pdoStatement:protected] => PDOStatement Object
+                (
+                    [queryString] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+                )
+
+            [_sqlStatement:protected] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+            [_bindParams:protected] => Array
+                (
+                    [:1] => silver
+                    [:2] => Silver Reseller
+                )
+
+            [_bindTypes:protected] => 
+            [_rowCount:protected] => 1
+        )
+
+    [_cache:protected] => 
+    [_isFresh:protected] => 1
+    [_pointer:protected] => -1
+    [_count:protected] => 1
+    [_activeRow:protected] => 
+    [_rows:protected] => 
+    [_errorMessages:protected] => 
+    [_hydrateMode:protected] => 0
+    [_model:protected] => Phalcon\Mvc\Model\Row Object
+        (
+        )
+
+    [_columnMap:protected] => Array
+        (
+            [groupId] => groupId
+            [groupCode] => groupCode
+        )
+
+    [_keepSnapshots:protected] => 
+)
+
+[Fri, 07 Nov 14 15:43:13 +0700][DEBUG] count : 1
+[Fri, 07 Nov 14 15:44:31 +0700][DEBUG] Array
+(
+    [columns] => id AS groupId, code AS groupCode
+    [conditions] => code= ?1 AND type= ?2
+    [bind] => Array
+        (
+            [1] => silver
+            [2] => Silver Reseller
+        )
+
+    [order] => code asc
+)
+
+[Fri, 07 Nov 14 15:44:31 +0700][DEBUG] Phalcon\Mvc\Model\Resultset\Simple Object
+(
+    [_type:protected] => 0
+    [_result:protected] => Phalcon\Db\Result\Pdo Object
+        (
+            [_connection:protected] => Phalcon\Db\Adapter\Pdo\Mysql Object
+                (
+                    [_eventsManager:protected] => 
+                    [_descriptor:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => pr_bilna_api
+                        )
+
+                    [_dialect:protected] => Phalcon\Db\Dialect\Mysql Object
+                        (
+                            [_escapeChar:protected] => `
+                        )
+
+                    [_connectionId:protected] => 1
+                    [_sqlStatement:protected] => 
+                    [_sqlVariables:protected] => 
+                    [_sqlBindTypes:protected] => 
+                    [_transactionsWithSavepoints:protected] => 0
+                    [_pdo:protected] => PDO Object
+                        (
+                        )
+
+                    [_affectedRows:protected] => 
+                    [_transactionLevel:protected] => 0
+                    [_type:protected] => mysql
+                    [_dialectType:protected] => mysql
+                )
+
+            [_result:protected] => 
+            [_fetchMode:protected] => 2
+            [_pdoStatement:protected] => PDOStatement Object
+                (
+                    [queryString] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+                )
+
+            [_sqlStatement:protected] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+            [_bindParams:protected] => Array
+                (
+                    [:1] => silver
+                    [:2] => Silver Reseller
+                )
+
+            [_bindTypes:protected] => 
+            [_rowCount:protected] => 1
+        )
+
+    [_cache:protected] => 
+    [_isFresh:protected] => 1
+    [_pointer:protected] => -1
+    [_count:protected] => 1
+    [_activeRow:protected] => 
+    [_rows:protected] => 
+    [_errorMessages:protected] => 
+    [_hydrateMode:protected] => 0
+    [_model:protected] => Phalcon\Mvc\Model\Row Object
+        (
+        )
+
+    [_columnMap:protected] => Array
+        (
+            [groupId] => groupId
+            [groupCode] => groupCode
+        )
+
+    [_keepSnapshots:protected] => 
+)
+
+[Fri, 07 Nov 14 15:44:31 +0700][DEBUG] count : 1
+[Fri, 07 Nov 14 15:48:00 +0700][DEBUG] Array
+(
+    [columns] => id AS groupId, code AS groupCode
+    [conditions] => code= ?1 AND type= ?2
+    [bind] => Array
+        (
+            [1] => silver
+            [2] => Silver Reseller
+        )
+
+    [order] => code asc
+)
+
+[Fri, 07 Nov 14 15:48:00 +0700][DEBUG] Phalcon\Mvc\Model\Resultset\Simple Object
+(
+    [_type:protected] => 0
+    [_result:protected] => Phalcon\Db\Result\Pdo Object
+        (
+            [_connection:protected] => Phalcon\Db\Adapter\Pdo\Mysql Object
+                (
+                    [_eventsManager:protected] => 
+                    [_descriptor:protected] => Array
+                        (
+                            [host] => localhost
+                            [username] => root
+                            [password] => 
+                            [dbname] => pr_bilna_api
+                        )
+
+                    [_dialect:protected] => Phalcon\Db\Dialect\Mysql Object
+                        (
+                            [_escapeChar:protected] => `
+                        )
+
+                    [_connectionId:protected] => 1
+                    [_sqlStatement:protected] => 
+                    [_sqlVariables:protected] => 
+                    [_sqlBindTypes:protected] => 
+                    [_transactionsWithSavepoints:protected] => 0
+                    [_pdo:protected] => PDO Object
+                        (
+                        )
+
+                    [_affectedRows:protected] => 
+                    [_transactionLevel:protected] => 0
+                    [_type:protected] => mysql
+                    [_dialectType:protected] => mysql
+                )
+
+            [_result:protected] => 
+            [_fetchMode:protected] => 2
+            [_pdoStatement:protected] => PDOStatement Object
+                (
+                    [queryString] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+                )
+
+            [_sqlStatement:protected] => SELECT `groups`.`id` AS `groupId`, `groups`.`code` AS `groupCode` FROM `groups` WHERE `groups`.`code` = :1 AND `groups`.`type` = :2 ORDER BY `groups`.`code` ASC
+            [_bindParams:protected] => Array
+                (
+                    [:1] => silver
+                    [:2] => Silver Reseller
+                )
+
+            [_bindTypes:protected] => 
+            [_rowCount:protected] => 1
+        )
+
+    [_cache:protected] => 
+    [_isFresh:protected] => 1
+    [_pointer:protected] => -1
+    [_count:protected] => 1
+    [_activeRow:protected] => 
+    [_rows:protected] => 
+    [_errorMessages:protected] => 
+    [_hydrateMode:protected] => 0
+    [_model:protected] => Phalcon\Mvc\Model\Row Object
+        (
+        )
+
+    [_columnMap:protected] => Array
+        (
+            [groupId] => groupId
+            [groupCode] => groupCode
+        )
+
+    [_keepSnapshots:protected] => 
+)
+
+[Fri, 07 Nov 14 15:48:00 +0700][DEBUG] count : 1

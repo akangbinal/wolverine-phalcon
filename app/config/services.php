@@ -8,6 +8,12 @@ use Phalcon\Mvc\View\Engine\Volt as VoltEngine;
 use Phalcon\Mvc\Model\Metadata\Memory as MetaDataAdapter;
 use Phalcon\Session\Adapter\Files as SessionAdapter;
 
+/**logging SQL**/
+use Phalcon\Logger,
+    Phalcon\Db\Adapter\Pdo\Mysql as Connection,
+    Phalcon\Events\Manager as EventsManager,
+    Phalcon\Logger\Adapter\File as FileLogger;
+
 /**
  * The FactoryDefault Dependency Injector automatically register the right services providing a full stack framework
  */
@@ -53,6 +59,32 @@ $di->set('view', function () use ($config) {
 /**
  * Database connection is created based in the parameters defined in the configuration file
  */
+$di->set('db', function() use ($config)  {
+
+    $eventsManager = new EventsManager();
+
+    $logger = new FileLogger("../app/logs/debug.log");
+
+    //Listen all the database events
+    $eventsManager->attach('db', function($event, $connection) use ($logger) {
+        if ($event->getType() == 'beforeQuery') {
+            $logger->log($connection->getSQLStatement(), Logger::INFO);
+        }
+    });
+
+    $connection = new Connection(array(
+        'host' 		=> $config->database->host,
+        'username' 	=> $config->database->username,
+        'password' 	=> $config->database->password,
+        'dbname' 	=> $config->database->dbname
+    ));
+
+    //Assign the eventsManager to the db adapter instance
+    $connection->setEventsManager($eventsManager);
+
+    return $connection;
+});
+/*
 $di->set('db', function () use ($config) {
     return new DbAdapter(array(
         'host' => $config->database->host,
@@ -60,7 +92,7 @@ $di->set('db', function () use ($config) {
         'password' => $config->database->password,
         'dbname' => $config->database->dbname
     ));
-});
+});*/
 
 /**
  * If the configuration specify the use of metadata adapter use it or use memory otherwise
@@ -83,7 +115,7 @@ $di->set('session', function () {
 
 //activate logger
 $di->set('logger', function() {
-    return new \Phalcon\Logger\Adapter\File("../app/logs/error.log");
+    return new \Phalcon\Logger\Adapter\File("../app/logs/debug.log");
 });
 
 /**

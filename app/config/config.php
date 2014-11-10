@@ -16,6 +16,6 @@ return new \Phalcon\Config(array(
         'libraryDir'     => __DIR__ . '/../../app/library/',
         'constantDir'    => __DIR__ . '/../../app/constants/',
         'cacheDir'       => __DIR__ . '/../../app/cache/',
-        'baseUri'        => '/binal-dev/benchmark/phalcon/api/',
+        'baseUri'        => '/binal-dev/benchmark/phalcon/wolverine-phalcon/',
     )
 ));

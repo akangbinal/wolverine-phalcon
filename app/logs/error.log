@@ -506,3 +506,422 @@
 )
 
 [Fri, 07 Nov 14 15:48:00 +0700][DEBUG] count : 1
+[Mon, 10 Nov 14 10:45:35 +0700][DEBUG] 1
+[Mon, 10 Nov 14 10:45:46 +0700][DEBUG] 1
+[Mon, 10 Nov 14 10:46:22 +0700][DEBUG] 1 1
+[Mon, 10 Nov 14 10:49:19 +0700][DEBUG] 1 1
+[Mon, 10 Nov 14 10:50:05 +0700][DEBUG] 1 1
+[Mon, 10 Nov 14 10:50:18 +0700][DEBUG] 1 1
+[Mon, 10 Nov 14 10:53:00 +0700][DEBUG] Array
+(
+    [type] => Silver Reseller312
+    [code] => silver312
+)
+ Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [code] => silver
+            [type] => Silver Reseller
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [code] => gold
+            [type] => Gold Reseller
+        )
+
+    [2] => Array
+        (
+            [id] => 8
+            [code] => silverxx
+            [type] => xxxSilver Reseller
+        )
+
+    [3] => Array
+        (
+            [id] => 10
+            [code] => silverx
+            [type] => Silver Resellerx
+        )
+
+    [4] => Array
+        (
+            [id] => 11
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [5] => Array
+        (
+            [id] => 12
+            [code] => Ping Code
+            [type] => Ping typex
+        )
+
+    [6] => Array
+        (
+            [id] => 13
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [7] => Array
+        (
+            [id] => 14
+            [code] => indo
+            [type] => indo
+        )
+
+)
+
+[Mon, 10 Nov 14 10:54:57 +0700][DEBUG] Array
+(
+    [conditions] => Array
+        (
+            [type] => Silver Reseller312
+            [code] => silver312
+        )
+
+)
+ Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [code] => silver
+            [type] => Silver Reseller
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [code] => gold
+            [type] => Gold Reseller
+        )
+
+    [2] => Array
+        (
+            [id] => 8
+            [code] => silverxx
+            [type] => xxxSilver Reseller
+        )
+
+    [3] => Array
+        (
+            [id] => 10
+            [code] => silverx
+            [type] => Silver Resellerx
+        )
+
+    [4] => Array
+        (
+            [id] => 11
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [5] => Array
+        (
+            [id] => 12
+            [code] => Ping Code
+            [type] => Ping typex
+        )
+
+    [6] => Array
+        (
+            [id] => 13
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [7] => Array
+        (
+            [id] => 14
+            [code] => indo
+            [type] => indo
+        )
+
+)
+
+[Mon, 10 Nov 14 11:07:53 +0700][DEBUG] Array
+(
+    [conditions] => Array
+        (
+            [type] => Silver Reseller312
+            [code] => silver312
+        )
+
+)
+ Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [code] => silver
+            [type] => Silver Reseller
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [code] => gold
+            [type] => Gold Reseller
+        )
+
+    [2] => Array
+        (
+            [id] => 8
+            [code] => silverxx
+            [type] => xxxSilver Reseller
+        )
+
+    [3] => Array
+        (
+            [id] => 10
+            [code] => silverx
+            [type] => Silver Resellerx
+        )
+
+    [4] => Array
+        (
+            [id] => 11
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [5] => Array
+        (
+            [id] => 12
+            [code] => Ping Code
+            [type] => Ping typex
+        )
+
+    [6] => Array
+        (
+            [id] => 13
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [7] => Array
+        (
+            [id] => 14
+            [code] => indo
+            [type] => indo
+        )
+
+)
+
+[Mon, 10 Nov 14 11:08:38 +0700][DEBUG] Array
+(
+    [conditions] => Array
+        (
+            [type] => Silver Reseller312
+            [code] => silver312
+        )
+
+)
+ Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [code] => silver
+            [type] => Silver Reseller
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [code] => gold
+            [type] => Gold Reseller
+        )
+
+    [2] => Array
+        (
+            [id] => 8
+            [code] => silverxx
+            [type] => xxxSilver Reseller
+        )
+
+    [3] => Array
+        (
+            [id] => 10
+            [code] => silverx
+            [type] => Silver Resellerx
+        )
+
+    [4] => Array
+        (
+            [id] => 11
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [5] => Array
+        (
+            [id] => 12
+            [code] => Ping Code
+            [type] => Ping typex
+        )
+
+    [6] => Array
+        (
+            [id] => 13
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [7] => Array
+        (
+            [id] => 14
+            [code] => indo
+            [type] => indo
+        )
+
+)
+
+[Mon, 10 Nov 14 11:09:01 +0700][DEBUG] Array
+(
+    [conditions] => Array
+        (
+            [type] => Silver Reseller312
+            [code] => silver312
+        )
+
+)
+ Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [code] => silver
+            [type] => Silver Reseller
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [code] => gold
+            [type] => Gold Reseller
+        )
+
+    [2] => Array
+        (
+            [id] => 8
+            [code] => silverxx
+            [type] => xxxSilver Reseller
+        )
+
+    [3] => Array
+        (
+            [id] => 10
+            [code] => silverx
+            [type] => Silver Resellerx
+        )
+
+    [4] => Array
+        (
+            [id] => 11
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [5] => Array
+        (
+            [id] => 12
+            [code] => Ping Code
+            [type] => Ping typex
+        )
+
+    [6] => Array
+        (
+            [id] => 13
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [7] => Array
+        (
+            [id] => 14
+            [code] => indo
+            [type] => indo
+        )
+
+)
+
+[Mon, 10 Nov 14 11:10:00 +0700][DEBUG] Array
+(
+    [conditions] => Array
+        (
+            [type] => Silver Reseller312
+            [code] => silver312
+        )
+
+)
+ Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [code] => silver
+            [type] => Silver Reseller
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [code] => gold
+            [type] => Gold Reseller
+        )
+
+    [2] => Array
+        (
+            [id] => 8
+            [code] => silverxx
+            [type] => xxxSilver Reseller
+        )
+
+    [3] => Array
+        (
+            [id] => 10
+            [code] => silverx
+            [type] => Silver Resellerx
+        )
+
+    [4] => Array
+        (
+            [id] => 11
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [5] => Array
+        (
+            [id] => 12
+            [code] => Ping Code
+            [type] => Ping typex
+        )
+
+    [6] => Array
+        (
+            [id] => 13
+            [code] => Ping Code
+            [type] => Ping type
+        )
+
+    [7] => Array
+        (
+            [id] => 14
+            [code] => indo
+            [type] => indo
+        )
+
+)
+
+[Mon, 10 Nov 14 11:12:42 +0700][DEBUG] Array
+[Mon, 10 Nov 14 11:12:45 +0700][DEBUG] Array
+[Mon, 10 Nov 14 11:12:49 +0700][DEBUG] Array

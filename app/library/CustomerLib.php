@@ -25,9 +25,9 @@ class CustomerLib {
     	try{
     		
 	    	$responseMessage 	= DefaultConstant::getResponseCode();
-	    	$customer 			= new Customer();
+	    	$customer 			= new Customers();
 			
-			$validate	= $customer->validate($data);
+			#$validate	= $customer->validate($data);
 			
 			$customer->setFirstName($data->firstName);
 	    	$customer->setLastName($data->lastName);
@@ -38,9 +38,7 @@ class CustomerLib {
 	    	$customer->setlastActivity($data->lastActivity);
 	    	$customer->setStatus($data->status);
 	    	$customer->setNote($data->note);
-	    	
-	    	$this->em->persist($customer);
-			$this->em->flush($customer);
+	    	$customer->save();
 			
 			return $customer;
 		}catch( \Exception $e ){
@@ -120,12 +118,11 @@ class CustomerLib {
     	try{
     		
 	    	$responseMessage = DefaultConstant::getResponseCode();
-	    	$customer 		= new Group();
-			$validate		= $customer->validate($data);
+	    	$customer 		= new Groups();
+			#$validate		= $customer->validate($data);
 			$customer->setCode($data->code);
 	    	$customer->setType($data->type);
-	    	$this->em->persist($customer);
-			$this->em->flush($customer);
+	    	$customer->save();
 			return $customer;
 			
 		}catch( \Exception $e ){
